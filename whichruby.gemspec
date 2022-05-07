@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/ccmywish/whichruby"
   spec.metadata["changelog_uri"] = "https://github.com/ccmywish/whichruby"
   
-  spec.files = ['exe/whichruby']
+  spec.files = ['exe/whichruby', 'exe/wrb']
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
