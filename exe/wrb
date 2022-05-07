@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 # ---------------------------------------------------------------
-# File          : whichruby.rb
+# File          : wrb.rb
 # Authors       : ccmywish <ccmywish@qq.com>
-# Created on    : <2022-05-06>
+# Created on    : <2022-05-07>
 # Last modified : <2022-05-07>
 #
-# whichruby:
+# wrb:
 #
-#   Test which ruby is called using this gem and where am I.
+#   Another name for `whichruby`
 #
 # ---------------------------------------------------------------
 

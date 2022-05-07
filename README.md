@@ -1,6 +1,6 @@
 # whichruby
 
-Test which ruby is used by this gem.
+Test which ruby is called by this gem.
 
 This gem is to help develop [rbenv for Windows](https://github.com/ccmywish/rbenv-for-windows), but also helpful to `rbenv`, `rvm`
 
@@ -11,6 +11,8 @@ gem install whichruby
 ```
 
 ## Usage
+
+`wrb` and `whichruby` are the same.
 
 ```bash
 rbenv global 2.7.0
