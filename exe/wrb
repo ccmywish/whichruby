@@ -1,15 +1,16 @@
 #!/usr/bin/env ruby
 # ---------------------------------------------------------------
 # File          : wrb.rb
-# Authors       : ccmywish <ccmywish@qq.com>
+# Authors       : Aoran Zeng <ccmywish@qq.com>
 # Created on    : <2022-05-07>
-# Last modified : <2022-05-07>
+# Last modified : <2023-05-19>
 #
 # wrb:
 #
 #   Another name for `whichruby`
-#
 # ---------------------------------------------------------------
 
-puts "[ in #$0 ]
+puts RbConfig.ruby
+
+puts "[ at: #$0 ]
 #{RUBY_DESCRIPTION}"

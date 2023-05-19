@@ -1,15 +1,16 @@
 #!/usr/bin/env ruby
 # ---------------------------------------------------------------
 # File          : whichruby.rb
-# Authors       : ccmywish <ccmywish@qq.com>
+# Authors       : Aoran Zeng <ccmywish@qq.com>
 # Created on    : <2022-05-06>
-# Last modified : <2022-05-07>
+# Last modified : <2023-05-19>
 #
 # whichruby:
 #
 #   Test which ruby is called using this gem and where am I.
-#
 # ---------------------------------------------------------------
 
-puts "[ in #$0 ]
+puts RbConfig.ruby
+
+puts "[ at: #$0 ]
 #{RUBY_DESCRIPTION}"
