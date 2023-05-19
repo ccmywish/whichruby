@@ -10,7 +10,8 @@
 #   Another name for `whichruby`
 # ---------------------------------------------------------------
 
-puts RbConfig.ruby
-
-puts "[ at: #$0 ]
+puts "[ Invoked at: #$0 ]
 #{RUBY_DESCRIPTION}"
+
+# Make it last, because we wanna feed ruby.exe path to some program
+puts RbConfig.ruby
