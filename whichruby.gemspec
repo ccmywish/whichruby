@@ -5,12 +5,13 @@ require_relative "lib/whichruby"
 Gem::Specification.new do |spec|
   spec.name = "whichruby"
   spec.version = WhichRuby::VERSION
+  spec.license = "MIT"
 
   spec.authors = "Aoran Zeng"
   spec.email = "ccmywish@qq.com"
 
-  spec.summary = "Test which ruby is called using this gem."
-  spec.description = "Test which ruby is called using this gem."
+  spec.summary = "Test which ruby is called"
+  spec.description = "Test which ruby is called using this gem"
 
   spec.required_ruby_version = ">= 1.8.6"
 
